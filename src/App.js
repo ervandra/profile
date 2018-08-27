@@ -11,7 +11,7 @@ import HomePage from './pages/Home';
 
 class App extends Component {
 	render() {
-		const basename = process.env.NODE_ENV === 'production' ? '/portfolio' : '/';
+		const basename = process.env.NODE_ENV === 'production' ? '/profile' : '/';
 		console.log(basename);
 		return (
 			<BrowserRouter basename={basename}>
