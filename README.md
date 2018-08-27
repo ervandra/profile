@@ -1,9 +1,9 @@
 <img src='./public/images/share.jpg' />
-## Portfolio Web Apps
+## Profile Web Apps
 Convert my personal website into fragmented web apps.
 
 ## Sinopsis
-Now you'll be able to view my portfolio which is rebuild using react.js. Data provided by WP REST API from www.ervandra.com
+Now you'll be able to view my profile which is rebuild using react.js. Data provided by WP REST API from www.ervandra.com
 
 ## Why?
 Based on desire to develop and develop, too much ideas but less execution, so i've decided to convert several parts or entire functionallity of my website into fragmented/separated web apps and mobile apps.
