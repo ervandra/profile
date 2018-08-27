@@ -22,7 +22,7 @@ class Header extends Component {
 								<Menu />
 							</nav> */}
 							<div className="site-title">
-								<h1>Portfolio Web Apps</h1>
+								<h1>Profile Web Apps</h1>
 								<h3>Build with React.js | Axios | WP REST API</h3>
 							</div>
 						</div>

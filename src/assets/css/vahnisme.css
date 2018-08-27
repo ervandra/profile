@@ -39,7 +39,7 @@ p, ul li, ol li {
   transform-origin: 50% 50%; }
 
 #header {
-  background: #2098D1;
+  background: #222;
   padding: 1rem 0;
   position: fixed;
   top: 0;
@@ -305,7 +305,7 @@ body.scrolled .logo svg {
   margin-top: 80px; }
 
 .hero {
-  background: #2098d1;
+  background: #222;
   padding: 11rem 0 2rem;
   color: #fff;
   text-align: center;
@@ -867,6 +867,24 @@ form div.wpcf7-mail-sent-ok {
   background: #fff;
   color: #045f8c; }
 
+body {
+  background: #f8f8f8 url(../images/bg-about.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#header {
+  background: #631a9a;
+  background: -moz-linear-gradient(45deg, #631a9a 0%, #c1089d 100%);
+  background: -webkit-linear-gradient(45deg, #631a9a 0%, #c1089d 100%);
+  background: linear-gradient(45deg, #631a9a 0%, #c1089d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#631a9a', endColorstr='#c1089d',GradientType=1 ); }
+
+.hero {
+  background: rgba(0, 0, 0, 0.6); }
+
+#content {
+  background: none; }
+
 #maincontent .tiled-gallery-caption {
   background: #2098D1 !important;
   color: #fff !important;
@@ -914,6 +932,24 @@ div.wp-caption {
 .hire-ervan-now .button:focus, .hire-ervan-now .button:hover {
   color: #fff; }
 
+#footer {
+  background: #631a9a;
+  background: -moz-linear-gradient(45deg, rgba(99, 26, 154, 0.6) 0%, rgba(193, 8, 157, 0.6) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(99, 26, 154, 0.6) 0%, rgba(193, 8, 157, 0.6) 100%);
+  background: linear-gradient(45deg, rgba(99, 26, 154, 0.6) 0%, rgba(193, 8, 157, 0.6) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(99, 26, 154,.6)', endColorstr='rgba(193, 8, 157,.6)',GradientType=1 );
+  color: #eee; }
+
+#footer a {
+  color: #fff; }
+
+#footer a:hover, #footer a:focus {
+  color: #fff;
+  text-decoration: underline; }
+
+.copyright-text {
+  color: #eee; }
+
 @media only screen and (min-width: 90em) {
   .js-isotope .item {
     width: 25%;
@@ -941,6 +977,11 @@ div.wp-caption {
     padding-right: 1rem; } }
 
 @media only screen and (max-width: 40em) {
+  #header {
+    position: relative; }
+  .site-title {
+    text-align: left;
+    margin-top: 1.5rem; }
   .hire-ervan-now {
     background: rgba(32, 152, 209, 0.8);
     border-top: none;
@@ -967,7 +1008,7 @@ div.wp-caption {
   cite {
     letter-spacing: 0; }
   .hero {
-    padding-top: 8rem; }
+    padding-top: 2rem; }
   .hero h1 {
     font-size: 2rem; }
   .hero h1 small {

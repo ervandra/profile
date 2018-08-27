@@ -4,8 +4,7 @@ import Wrapper from '../components/global/Wrapper';
 import Header from '../components/global/Header';
 import Footer from '../components/global/Footer';
 
-// import Hero from '../components/utility/Hero';
-import PortfolioListing from '../components/utility/PortfolioListing';
+import About from '../components/utility/About';
 
 
 class Home extends Component {
@@ -20,9 +19,13 @@ class Home extends Component {
 		return (
 			<Wrapper>
 				<Header />
-				<section id="content" className="home">
-					{/* <Hero/> */}
-					<PortfolioListing/>
+				<section id="content" className="internal">
+				<div className="hero">
+					<h1>About Me</h1>
+				</div>
+				<div id="maincontent">
+					<About />	
+				</div>
 				</section>
 				<Footer />
 			</Wrapper>
